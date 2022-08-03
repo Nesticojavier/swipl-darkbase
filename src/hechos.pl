@@ -69,7 +69,7 @@ padre(jonas, cain).
 padre(daniel, ines).
 
 /** 
- * Del hecho de que mikkel y michael son la misma persona,
+ * Del hecho de que Mikkel y Michael son la misma persona,
  * se definen inductivamente los siguientes hechos de padres.
 */
 padre(ulrich, Y) :- mismaPersona(mikkel, Y).
@@ -94,7 +94,7 @@ madre(martha, cain).
 madre(ines, michael).
 
 /** 
- * Del hecho de que mikkel y michael son la misma persona,
+ * Del hecho de que Mikkel y Michael son la misma persona,
  * se definen inductivamente los siguientes hechos de madre/2.
 */
 madre(katharina, Y) :- mismaPersona(mikkel, Y).
@@ -114,7 +114,7 @@ esposo(ulrich, katharina).
 esposo(michael, hannah).
 
 /** 
- * Del hecho de que mikkel y michael son la misma persona,
+ * Del hecho de que Mikkel y Michael son la misma persona,
  * se define inductivamente el siguiente hecho de esposos.
 */
 esposo(X, hannah) :- mismaPersona(X, michael).

@@ -1,4 +1,4 @@
-# swipl-knowledgeBase
+# Implementacion de una base de connocimientos en Prolog
 
 Base de conocimientos en Prolog sobre el mundo de Dark. Especificamente, las familias Nilsen y Kahnwald, las cuales se entrelazan debido a que Mikkel y Michael son la misma persona.
 

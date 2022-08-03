@@ -59,7 +59,6 @@ mismaPersona(michael, mikkel).
  * 
  * @param p es el padre de la relacion. 
  * @param h es la persona de la cual es padre p. */
-padre(noah, tronte).  
 padre(tronte, ulrich).
 padre(tronte, mads).  
 padre(ulrich, mikkel).

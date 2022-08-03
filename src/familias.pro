@@ -97,7 +97,7 @@ abuelo(X, Y) :-
  * @param Y la persona de la cual X es abuela. */
 abuela(X, Y) :-
     persona(X, fem),
-    padre(X, Z),
+    madre(X, Z),
     (
         padre(Z, Y);
         madre(Z, Y)
